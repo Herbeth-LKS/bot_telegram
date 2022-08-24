@@ -1,0 +1,5 @@
+notify-py==0.3.3
+notifypy==1.0.3.0
+requests==2.25.1
+sty==1.0.4
+telegram==0.0.1
