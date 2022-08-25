@@ -4,7 +4,6 @@ import requests
 from sty import fg, bg, ef, rs
 from time import sleep
 from datetime import datetime
-from notifypy import Notify
 import telegram
 
 api_key = '5590110990:AAF81UkbP2-i_8WZia698z5ZMZnNeFKUM44'
@@ -20,12 +19,11 @@ def count(time, win: int, loss: int):
     # desktop notification settings
 
 
-def desktop_notification(message):
-    notification = Notify()
-    notification.title = 'Blaze'
-    notification.message = message
-    notification.icon = '/blaze-icon.png'
-    notification.send()
+#def desktop_notification(message):
+    #notification = Notify()
+    #notification.message = message
+    #notification.icon = '/blaze-icon.png'
+    #notification.send()
 
 
 # phone notifications
