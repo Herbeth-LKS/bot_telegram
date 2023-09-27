@@ -6,8 +6,8 @@ from time import sleep
 from datetime import datetime
 import telegram
 
-api_key = '5590110990:AAF81UkbP2-i_8WZia698z5ZMZnNeFKUM44'
-user_id = '-1001634471545'
+api_key = 'you api key'
+user_id = 'id do grupo ou contato de destino da msg'
 bot = telegram.Bot(token=api_key)
 
 
